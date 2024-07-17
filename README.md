@@ -23,20 +23,6 @@ This is a Flask web application designed to be hosted on AWS. The application us
 
 ## Directory Structure
 
-.
-├── download
-├── input
-├── output
-├── pythonPrograms
-├── templates
-├── webAppEnv
-├── Dockerfile
-├── LICENSE
-├── main.py
-├── README.md
-└── requirements.txt
-└── Extra
-
 
 - **download**: Directory for files to be downloaded by the user.
 - **input**: Directory for files inputed by the user.
@@ -49,7 +35,7 @@ This is a Flask web application designed to be hosted on AWS. The application us
 - **main.py**: Main entry point for the Flask application.
 - **README.md**: This README file.
 - **requirements.txt**: Python dependencies.
-- **Extra**: Python programs used to compute Chi Square, they are included for reproducibility.
+- **Sub group analysis**: Python programs used to compute Chi Square, they are included for reproducibility.
 
 ## Prerequisites
 

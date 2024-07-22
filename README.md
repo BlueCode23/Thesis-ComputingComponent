@@ -23,7 +23,7 @@ This is a Flask web application designed to be hosted on AWS. The application us
 
 ## Directory Structure
 
-
+Within Computing Component :
 - **download**: Directory for files to be downloaded by the user.
 - **input**: Directory for files inputed by the user.
 - **output**: Directory for files to be outputed to the user.
@@ -35,14 +35,14 @@ This is a Flask web application designed to be hosted on AWS. The application us
 - **main.py**: Main entry point for the Flask application.
 - **README.md**: This README file.
 - **requirements.txt**: Python dependencies.
-- **Sub group analysis**: Python programs used to compute Chi Square, they are included for reproducibility.
+
+Within Other analyis programs :
+- **Commonalities and Sub group analysis**: Python programs used to compute Chi Square, and commonalities they are included for reproducibility.
 
 ## Prerequisites
 
 - Python 3.8 or higher
 - Docker
-- AWS account
-- AWS CLI
 
 ## Installation
 
@@ -76,30 +76,4 @@ This is a Flask web application designed to be hosted on AWS. The application us
 
     Open your browser and navigate to `http://localhost:5000`.
 
-## Deploying to AWS
-
-1. **Build the Docker image:**
-
-    ```sh
-    docker build -t your-app-name .
-    ```
-
-2. **Tag the Docker image:**
-
-    ```sh
-    docker tag your-app-name:latest your-dockerhub-username/your-app-name:latest
-    ```
-
-3. **Push the Docker image to Docker Hub:**
-
-    ```sh
-    docker push your-dockerhub-username/your-app-name:latest
-    ```
-
-4. **Create an ECS cluster and task definition on AWS:**
-
-    Follow the AWS documentation to create an ECS cluster and task definition using the Docker image.
-
-5. **Deploy the application:**
-
-    Use the AWS Management Console or AWS CLI to deploy the Docker container to the ECS cluster.
+The application is made to be deployable in any cloud service platform.

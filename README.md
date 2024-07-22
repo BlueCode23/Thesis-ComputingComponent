@@ -11,7 +11,6 @@ This is a Flask web application designed to be hosted on AWS. The application us
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Running the Application](#running-the-application)
-  - [Deploying to AWS](#deploying-to-aws)
   
   
   

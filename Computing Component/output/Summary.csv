@@ -1,3 +1,0 @@
-Course Name,Session type,Attendance-Grade correlation,p-value,Student fail rate,Student absence rate,Average attendance percentage,Average grade,Student count,Classification
-Security 1,practical,0.68,0.0,25.0,0.0,48.12,11.6,19,fair positive
-Security 1,lecture,0.68,0.0,25.0,0.0,48.12,11.6,19,fair positive
